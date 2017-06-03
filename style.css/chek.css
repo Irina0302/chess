@@ -16,7 +16,7 @@ ul {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: #D8BFD8;
 }
 
 li {
@@ -26,11 +26,71 @@ li {
     height: 100px;
     box-sizing: border-box;
     border: 2px solid #FF4500;
+    position: relative;
 }
 
-.first li:nth-child(2n) {
+
+/*Color for the board*/
+
+.first li:nth-child(odd) {
+    background-color: white;
+}
+
+.second li:nth-child(even) {
+    background-color: white;
+}
+
+.three li:nth-child(odd) {
+    background-color: white;
+}
+
+.four li:nth-child(even) {
+    background-color: white;
+}
+
+.five li:nth-child(odd) {
+    background-color: white;
+}
+
+.six li:nth-child(even) {
+    background-color: white;
+}
+
+.seven li:nth-child(odd) {
+    background-color: white;
+}
+
+.eight li:nth-child(even) {
     background-color: white;
 }
 
 
 /*Checker*/
+
+.sam {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: aqua;
+    height: 75px;
+    width: 75px;
+    border: solid 2px #00FF00;
+}
+
+.sea {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    height: 75px;
+    width: 75px;
+    border: solid 2px #7B68EE;
+}
